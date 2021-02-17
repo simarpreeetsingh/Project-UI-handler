@@ -1,5 +1,7 @@
 const app = require(`${__dirname}/router`)
 
-app.listen(3000, () => {
+port = process.env.PORT || "7777"
+
+app.listen(port, () => {
   console.log("*******************************")
 })
